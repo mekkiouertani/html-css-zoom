@@ -8,10 +8,10 @@ ul{
     list-style: none;
 }
 
-.debug{
+/* .debug{
     border: 1px solid red;
 }
-
+ */
 .container{
     width: 90%;
     margin: 30px auto;
@@ -19,7 +19,9 @@ ul{
 
 body{
     background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .flex-end{
     display: flex;
     justify-content: flex-end;
@@ -44,10 +46,11 @@ padding-bottom: 30px;
 }
 
 .high-setting span{
-    background-color: grey;
+    background-color: rgba(116, 116, 116, 0.8);
     margin: 5px 8px; 
     padding: 3px 5px;
     border-radius: 5px;
+    color: white;
 }
 
 .card{
@@ -104,7 +107,7 @@ footer{
 
 .icon{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .icon i{
@@ -113,7 +116,8 @@ footer{
 }
 
 .arrow{
-    padding: 0 10px;
+    padding: 0 5px;
+    font-size: 0.6em;
 }
 
 #green{
@@ -125,3 +129,11 @@ footer{
     background-color: #4a4a4a;
     color: red;
 }
+
+/* .f-left, .f-right{
+    width: 35%;
+}
+
+.f-middle{
+    width: 30%;
+} */
