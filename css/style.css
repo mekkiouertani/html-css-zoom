@@ -57,6 +57,7 @@ padding-bottom: 30px;
     width: calc(100% / 7);
     position: relative;
     padding: 5px;
+    min-width: 200px;
 }
 
 .card img{
@@ -75,13 +76,6 @@ padding-bottom: 30px;
 }
 
 
-
-
-
-
-
-
-
 /* ---------------- FOOTER */
 .f-flex{
     display: flex;
@@ -91,7 +85,6 @@ padding-bottom: 30px;
 
 .flex-flow{
     flex-direction: row;
-    
 }
 
 footer{
@@ -130,10 +123,3 @@ footer{
     color: red;
 }
 
-/* .f-left, .f-right{
-    width: 35%;
-}
-
-.f-middle{
-    width: 30%;
-} */
